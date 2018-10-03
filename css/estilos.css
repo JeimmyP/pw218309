@@ -1,0 +1,39 @@
+body{
+	background: #F2D398;
+	color: #E8EBF7;
+	font: sans-serif;
+	margin: 0px auto;
+	max-width: 1024px; //maximo ancho tablets pero no optimizado para moviles
+
+}
+header{
+	background: #ACBED8;
+	border-radius: 5px;
+	color:white;
+	font-size: 16px;
+	padding-top: 5px; 
+	text-align: center;
+	/*padding-top: : 20px;*/
+	/*padding: 20px 0px 0px 0px;*/
+	
+}
+header img{
+	width: 100px;
+}
+header h1{
+	
+}
+header nav ul li{
+	background: gray;
+	box-shadow: 5px 5px black;
+	display: inline-block; /*abarca tu contenido en linea mientras quepas*/
+	margin-right: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	width: 118px;
+}
+header nav ul li:hover{
+	background: black;
+	color: gray;
+	box-shadow: 5px 5px white;
+}
