@@ -26,12 +26,14 @@ header input{
 	background: #2b2b2b;
 }
 #seccion01 article{
+	/*comportamiento de visualización*/
 	display: inline-block;
 	height: 300px;
 	vertical-align: top;
 	width: 279px;
 }
 #seccion01 ul{
+	/*especifica el tipo de marcador de lista de elementos en una lista*/
 	list-style: none;
 }
 #seccion01 ul li{
